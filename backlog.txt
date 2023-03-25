@@ -1,0 +1,40 @@
+user
+    publicKey
+    phone
+    fullName
+    email
+    password 4 char
+    profilePic
+        -Cadastrar usuario()
+        -Login()
+        -Mostrar dados do usuario()
+
+account
+    publicKey
+    user_publicKey
+    balance
+        -ver dados de uma conta
+        -cadastrar uma nova conta
+
+
+transaction
+    publicKey
+    user_publicKey
+    account_publicKey
+    transaction_title
+    transaction_description
+    value
+    date
+    type = minus | more
+        -ver todas as transações
+        -ver uma unica transação
+        -realizar uma transação se o "balance" da conta for maior que o valor da transção
+
+
+
+budget
+    publicKey
+    user_publicKey
+    budget_total
+    date_to_finish
+    balance
